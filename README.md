@@ -1,2 +1,3 @@
 Hasil di mysql
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b461f2de-7564-4923-a906-f2f7eba91839" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/bc9ff24c-696b-4c8c-bc15-8f725abc8c8e" />
+
