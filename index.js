@@ -21,7 +21,7 @@ db.sequelize.sync()
         console.log(err);
     });
 
-    app.post('/komiks', async (req, res) => {
+    app.post('/komik', async (req, res) => {
         const data = req.body;
         try{
             const komik = await db.Komik.create(data);
@@ -31,7 +31,7 @@ db.sequelize.sync()
         }
     });
 
-    app.get('/komiks', async (req, res) => {
+    app.get('/komik', async (req, res) => {
         try {
             const komiks =  await db.Komik.findAll();
             res.send(komiks);
@@ -39,3 +39,4 @@ db.sequelize.sync()
             res.send(err);
         }
     });
+
